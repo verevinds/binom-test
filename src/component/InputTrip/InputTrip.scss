@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Circe Regular';
+  src: url('../../font/Circe-Regular.eot');
+  src: url('../../font/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../font/Circe-Regular.woff') format('woff'),
+  url('../../font/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.InputName{
+  position: absolute;
+  height: 207px;
+  padding: 0;
+  .mainBox_inputFrom:-moz-placeholder,
+  .mainBox_inputFrom::-webkit-input-placeholder {
+    font-family: 'Circe-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.88);
+  }
+  .mainBox_firstLevel_label{
+    position: absolute;
+    height: 18px;
+    font-family: 'Circe-Regular';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.56);
+    z-index: 2;
+    background: #fff;
+  }
+  .mainBox__fromtoclient{
+
+    .ant-input::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.88); border: none;}
+    .ant-input:-ms-input-placeholder { color: rgba(0, 0, 0, 0.88); border: none;}
+    .ant-input::-ms-input-placeholder { color: rgba(0, 0, 0, 0.88); border: none;}
+    .ant-input::placeholder { color: rgba(0, 0, 0, 0.88); border: none;} 
+  
+  }
+  .ant-input{
+    height: 44px;
+  }
+  .mainBox_input{
+    position: relative;
+    height: 48px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .mainBox_input_client{
+    position: absolute;
+    height: 48px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  
+}

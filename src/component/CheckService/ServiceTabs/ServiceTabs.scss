@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Circe Regular';
+  src: url('../../../font/Circe-Regular.eot');
+  src: url('../../../font/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../../font/Circe-Regular.woff') format('woff'),
+  url('../../../font/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+    .service_tabs{
+      position: absolute;
+        .service_tabs__icon{
+          float: right;
+          cursor: pointer;
+        }
+        .service_tabs__tab{
+          position: absolute;
+          padding: 15px 27px;
+          background: #FFFFFF;
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+          border-radius: 16px 16px 0px 0px;
+        }
+        .ant-checkbox-inner{
+          padding: 0 0 2px 2px;
+          margin: 0;
+          height: 20px;
+          width: 20px;
+          border: 2px solid rgba(0, 0, 0, 0.56);
+          border-radius: 20%;
+        }
+        .service_tabs__titel{
+          font-family: 'Circe Regular';
+          font-size: 16px;
+          line-height: 24px;
+          margin-left: 35px;
+          /* identical to box height */
+  
+          letter-spacing: 0.15px;
+  
+          color: rgba(0, 0, 0, 0.88);
+        }
+      }

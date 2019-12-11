@@ -1,0 +1,31 @@
+  /***Кнопка****/
+  .group_button{
+    position: relative;
+
+    .group_button__button{
+        float: left;
+        height: 48px;
+        border: 2px solid rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        border-radius: 50px;
+        font-family: Circe;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.87);
+    }
+    .group_button__button-primary{
+      background-color: #002688;
+      box-shadow: 0px 1px 5px rgba(0, 38, 136, 0.2), 0px 2px 2px rgba(0, 38, 136, 0.14);
+      border-radius: 50px;
+      font-family: Circe;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+  }

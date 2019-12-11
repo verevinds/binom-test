@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Circe Regular';
+  src: url('../../../font/Circe-Regular.eot');
+  src: url('../../../font/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../../font/Circe-Regular.woff') format('woff'),
+  url('../../../font/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.list_name{
+    position: absolute;
+
+    .list_name__element{
+      margin-left: 8px;
+      margin-top: 8px;
+      display: inline-block;
+      height: 32px;
+      background: rgba(0, 38, 136, 0.12);
+      border-radius: 50px;
+
+      label{
+        font-family: 'Circe Regular';
+        margin: 6px 0 5px 12px;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.25px;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+    }
+
+    .close{
+        margin: 9px 10px 9px 10px;
+        cursor: pointer;
+      }
+      
+  }

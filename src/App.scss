@@ -1,0 +1,509 @@
+@import '../node_modules/antd/dist/antd.css';
+@font-face {
+  font-family: 'Circe Regular';
+  src: url('./font/Circe-Regular.eot');
+  src: url('./font/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./font/Circe-Regular.woff') format('woff'),
+  url('./font/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@media (min-width: 1280px) {  
+  .ant-layout-header{
+    width: 1248px;
+  }
+  .ant-layout-content{
+    width: 1272px;
+    height: 652px;
+  }
+  /*Label над Input в верхнем блоке*/
+  .label_from{
+    width: 41px;
+    left: 40px;
+    top: 16px;
+  }
+  .label_to{
+    width: 26px;
+    left: 456px;
+    top: 16px;
+  }
+  .label_date{
+    width: 27px;
+    left: 872px;
+    top: 16px;
+  }
+  .label_client{
+    width: 103px;
+    left: 40px;
+    top: 88px;
+  }
+  /*Input в верхнем блоке*/
+  .mainBox_input{
+    width: 392px;
+  }
+  .mainBox_input_client{
+    width: 808px;
+  }
+  .mainBox_input_from{ 
+    left: 24px;
+    top: 24px;
+  }
+  .mainBox_input_to{ 
+    left: 48px;
+    top: 24px;
+  }
+  .mainBox_input_date{ 
+    left: 72px;
+    top: 24px;
+  }
+  .mainBox_input_client{
+    left: 24px;
+    top: 96px;
+  }
+  .list_name__element:first-child{
+    margin-left: 0px;
+  }
+  .list_name{
+    width: 808px;
+    left: 24px;
+    top: 152px;
+  }
+  hr{
+    top: 207px;
+  }
+  .check_service__titel{
+    top: 290px;
+  }
+  .service_tabs__tab{
+    width: 1272px;
+  }
+
+  /**Вкладки услуги**/
+  .service_tabs__tab-first{
+    height: 288px;
+    top: 268px;
+  }
+  .service_tabs__tab-second{
+    height: 240px;
+    top: 316px;
+  }
+  .service_tabs__tab-third{
+    top: 364px;
+    height: 192px;
+  }
+  .service_tabs__tab-fourth{
+    top: 412px;
+    height: 144px;
+  }
+  .service_tabs__tab-fifth{
+    top: 460px;
+    height: 96px;
+  }
+  .service_tabs__tab-sixth{
+    top: 508px;
+    height: 48px;
+  }
+  .check_service__footer{
+    width: 1272px;
+    top: 556px;
+  }
+  .group_button{
+    top: 553px;
+    left: 440px;
+  }
+  .group_button__button{
+    width: 392px;
+  }
+  .group_button__button-primary{
+    margin-left: 24px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1280px) {  
+  .ant-layout-header{
+    width: 960px;
+  }
+  .ant-layout-content{
+    width: 960px;
+    height: 692px;
+  }
+  /*Label над Input в верхнем блоке*/
+  .label_from{
+    width: 41px;
+    left: 40px;
+    top: 16px;
+  }
+  .label_to{
+    width: 26px;
+    left: 352px;
+    top: 16px;
+  }
+  .label_date{
+    width: 27px;
+    left: 664px;
+    top: 16px;
+  }
+  .label_client{
+    width: 103px;
+    left: 40px;
+    top: 88px;
+  }
+  /*Input в верхнем блоке*/
+  .mainBox_input{
+    width: 288px;
+  }
+  .mainBox_input_client{
+    width: 600px;
+  }
+  .mainBox_input_from{ 
+    left: 24px;
+    top: 24px;
+  }
+  .mainBox_input_to{ 
+    left: 48px;
+    top: 24px;
+  }
+  .mainBox_input_date{ 
+    left: 72px;
+    top: 24px;
+  }
+  .mainBox_input_client{
+    left: 24px;
+    top: 96px;
+  }
+  /*Список введёных имён*/
+  .list_name__element:first-child(2*n-1){
+    margin-left: 0px;
+  }
+  .list_name{
+    width: 600px;
+    left: 16px;
+    top: 144px;
+  }
+  hr{
+    top: 247px;
+  }
+  .check_service__titel{
+    top: 330px;
+  }
+  .service_tabs__tab{
+    width: 960px;
+  }
+  /*Вкладки услуги*/
+  .service_tabs__tab-first{
+    height: 288px;
+    top: 308px;
+  }
+  .service_tabs__tab-second{
+    height: 240px;
+    top: 356px;
+  }
+  .service_tabs__tab-third{
+    top: 404px;
+    height: 192px;
+  }
+  .service_tabs__tab-fourth{
+    top: 452px;
+    height: 144px;
+  }
+  .service_tabs__tab-fifth{
+    top: 500px;
+    height: 96px;
+  }
+  .service_tabs__tab-sixth{
+    top: 548px;
+    height: 48px;
+  }
+  .check_service__footer{
+    width: 960px;
+    top: 596px;
+  }
+  .group_button{
+    top: 593px;
+    left: 336px;
+  }
+  .group_button__button{
+    width: 288px;
+  }
+  .group_button__button-primary{
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {  
+  .ant-layout-header{
+    width: 640px;
+  }
+  .ant-layout-content{
+    width: 640px;
+    height: 764px;
+  }
+  /*Label над Input в верхнем блоке*/
+  .label_from{
+    width: 41px;
+    left: 40px;
+    top: 16px;
+  }
+  .label_to{
+    width: 26px;
+    left: 348px;
+    top: 16px;
+  }
+  .label_date{
+    width: 27px;
+    left: 40px;
+    top: 88px;
+  }
+  .label_client{
+    width: 103px;
+    left: 40px;
+    top: 160px;
+  }
+  /*Input в верхнем блоке*/
+  .mainBox_input{
+    width: 284px;
+  }
+  .mainBox_input_client{
+    width: 600px;
+  }
+  .mainBox_input_from{ 
+    left: 24px;
+    top: 24px;
+  }
+  .mainBox_input_to{ 
+    left: 48px;
+    top: 24px;
+  }
+  .mainBox_input_date{ 
+    left: 24px;
+    top: 48px;
+  }
+  .mainBox_input_client{
+    left: 24px;
+    top: 168px;
+  }
+  /*Список введёных имён*/
+  .list_name__element:first-child(2*n-1){
+    margin-left: 0px;
+  }
+  .list_name{
+    width: 600px;
+    left: 16px;
+    top: 216px;
+  }
+  hr{
+    top: 319px;
+  }
+  .check_service__titel{
+    top: 402px;
+  }
+  .service_tabs__tab{
+    width: 640px;
+  }
+  /*Вкладки услуги*/
+  .service_tabs__tab-first{
+    height: 288px;
+    top: 380px;
+  }
+  .service_tabs__tab-second{
+    height: 240px;
+    top: 428px;
+  }
+  .service_tabs__tab-third{
+    top: 476px;
+    height: 192px;
+  }
+  .service_tabs__tab-fourth{
+    top: 524px;
+    height: 144px;
+  }
+  .service_tabs__tab-fifth{
+    top: 572px;
+    height: 96px;
+  }
+  .service_tabs__tab-sixth{
+    top: 620px;
+    height: 48px;
+  }
+  .check_service__footer{
+    width: 960px;
+    top: 668px;
+  }
+  .group_button{
+    top: 670px;
+    left: 24px;
+  }
+  .group_button__button{
+    width: 284px;
+  }
+  .group_button__button-primary{
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 640px) {  
+  .ant-layout-header{
+    width: 320px;
+  }
+  .ant-layout-content{
+    width: 320px;
+    height: 940px;
+  }
+  /*Label над Input в верхнем блоке*/
+  .label_from{
+    width: 41px;
+    left: 34px;
+    top: 16px;
+  }
+  .label_to{
+    width: 26px;
+    left: 34px;
+    top: 88px;
+  }
+  .label_date{
+    width: 27px;
+    left: 34px;
+    top: 160px;
+  }
+  .label_client{
+    width: 103px;
+    left: 34px;
+    top: 232px;
+  }
+  /*Input в верхнем блоке*/
+  .mainBox_input{
+    width: 288px;
+  }
+  .mainBox_input_client{
+    width: 288px;
+  }
+  .mainBox_input_from{ 
+    left: 16px;
+    top: 24px;
+  }
+  .mainBox_input_to{ 
+    left: 16px;
+    top: 48px;
+  }
+  .mainBox_input_date{ 
+    left: 16px;
+    top: 72px;
+  }
+  .mainBox_input_client{
+    left: 16px;
+    top: 240px;
+  }
+  /*Список введёных имён*/
+  .list_name__element:first-child(2*n-1){
+    margin-left: 0px;
+  }
+  .list_name{
+    width: 288px;
+    left: 10px;
+    top: 288px;
+  }
+  hr{
+    top: 430px;
+  }
+  .check_service__titel{
+    top: 514px;
+  }
+  .service_tabs__tab{
+    width: 320px;
+  }
+  /*Вкладки услуги*/
+  .service_tabs__tab-first{
+    height: 288px;
+    top: 491px;
+  }
+  .service_tabs__tab-second{
+    height: 240px;
+    top: 539px;
+  }
+  .service_tabs__tab-third{
+    top: 587px;
+    height: 192px;
+  }
+  .service_tabs__tab-fourth{
+    top: 635px;
+    height: 144px;
+  }
+  .service_tabs__tab-fifth{
+    top: 683px;
+    height: 96px;
+  }
+  .service_tabs__tab-sixth{
+    top: 731px;
+    height: 48px;
+  }
+  .check_service__footer{
+    width: 960px;
+    top: 779px;
+  }
+  .group_button{
+    top: 781px;
+    left: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .group_button__button{
+    width: 284px;
+    margin-top: 8px;
+  }
+  
+  .group_button__button-primary{
+    margin-left: 0;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Circe Regular';
+}
+body{
+  background: #E5E5E5;
+}
+
+label{
+  font-family: 'Circe-Regular';
+}
+.mainBox {
+  background: #E5E5E5;
+  height: 100vh;
+
+  .ant-layout{
+    background: none;
+  }
+
+  .ant-layout-header{
+    position: relative;
+    background: none;
+    left: 16px;
+    height: 59px;
+    margin: 0 auto;
+    padding: 0 0 18px 0;
+  }
+
+  .mainBox__titel{
+    font-family: 'Circe Regular';
+    font-size: 40px;
+    line-height: 59px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.88);
+  }
+  .ant-layout-content{
+    margin: 0 auto;
+    overflow: hidden;
+    background: #FFFFFF;
+    /* 01 dp */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14);
+    border-radius: 16px;
+  }
+  hr{
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.12);
+  }
+
+}
